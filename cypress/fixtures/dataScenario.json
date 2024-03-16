@@ -1,0 +1,22 @@
+{
+    "createSchedule": {
+        "option1": {
+            "startTime": "07:00",
+            "endTime": "20:00",
+            "duration": "30",
+            "serviceType": "teste"
+        }
+    },
+    "patient": {
+        "person1": {
+            "name": "Testes",
+            "code": "Teste"
+        }
+    },
+    "teste": {
+        "option1": {
+            "code": "Teste",
+            "description": "Teste"
+        }
+    }
+}

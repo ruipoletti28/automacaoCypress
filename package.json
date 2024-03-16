@@ -1,0 +1,31 @@
+{
+  "name": "casasbahia-automacao",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test:hmlS:run": "cross-env NODE_ENV=hmlS cypress run --env configFile=hmlS",
+    "test:hmlR:run": "cross-env NODE_ENV=hmlR cypress run --env configFile=hmlR",
+    "test:prod:run": "cross-env NODE_ENV=prod cypress run --env configFile=prod",
+    "test:hmlS:open": "cross-env NODE_ENV=hmlS cypress open --env configFile=hmlS",
+    "test:hmlR:open": "cross-env NODE_ENV=hmlR cypress open --env configFile=hmlR",
+    "test:prod:open": "cross-env NODE_ENV=prod cypress open --env configFile=prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-image-snapshot": "^4.0.1"
+  },
+  "dependencies": {
+    "browserify-fs": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "cypress-each": "^1.13.3",
+    "cypress-shadow-dom": "^1.4.1",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0"
+  }
+}
