@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://www.casasbahia.com.br", 
+      "loginADM": {
+        "name": "ADM",
+        "user": "TESTES",
+        "password": "1234"
+      }
+  }
